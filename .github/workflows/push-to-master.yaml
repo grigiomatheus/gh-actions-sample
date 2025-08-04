@@ -55,6 +55,7 @@ jobs:
           context: .
           push: true
           file: ./Dockerfile
+          target: final
           platforms: linux/amd64,linux/arm64
           tags: |
             ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:${{ steps.get_tag.outputs.tag }}
