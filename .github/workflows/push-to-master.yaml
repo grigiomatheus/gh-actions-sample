@@ -17,11 +17,16 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
-      - run: npm ci
-      - run: npx semantic-release
+
+      - name: Install dependencies
+        run: cd release && npm ci
+
+      - name: Run semantic-release
+        run: cd release && npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
