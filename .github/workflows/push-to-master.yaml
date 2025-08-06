@@ -23,7 +23,7 @@ jobs:
           node-version: '20.8.1'
 
       - name: Install dependencies
-        run: cd semantic-release release && npm ci
+        run: cd semantic-release && npm ci
 
       - name: Run semantic-release
         run: cd semantic-release && npx semantic-release
