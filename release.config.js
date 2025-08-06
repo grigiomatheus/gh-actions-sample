@@ -7,6 +7,8 @@ module.exports = {
       {
         writerOpts: {
           transform: (commit, context) => {
+            if (!commit.type) return;
+
             const message = `${commit.scope}: ${commit.subject} [${commit.scope}](https://sample.com/${commit.scope})`;
 
             const typeMap = {
