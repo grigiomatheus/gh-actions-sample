@@ -20,13 +20,13 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '20.8.1'
 
       - name: Install dependencies
-        run: cd .release && npm ci
+        run: cd semantic-release release && npm ci
 
       - name: Run semantic-release
-        run: cd .release && npx semantic-release
+        run: cd semantic-release && npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
