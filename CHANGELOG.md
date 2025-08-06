@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.2.0 (2025-08-06)
+
+### 
+  * undefined: Merge branch 'master' of https://github.com/grigiomatheus/gh-actions-sample [undefined](https://sample.com/undefined)
+
+### Features
+  * test-542: another test commit. [test-542](https://sample.com/test-542)
+
+# Changelog
+
 ## 1.1.6 (2025-08-06)
 
 ### 
