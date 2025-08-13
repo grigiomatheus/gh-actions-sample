@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.1 (2025-08-06)
+
+### Bug Fixes
+  * test-123: test commit. [test-123](https://sample.com/test-123)
+
+# Changelog
+
 ## 1.2.0 (2025-08-06)
 
 ### 
