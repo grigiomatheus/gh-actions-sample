@@ -1,3 +1,17 @@
+## 1.3.2 (2025-08-13)
+
+### build
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
+### Documentation
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
+### Performance Improvements
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
+### test
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
 ## 1.3.1 (2025-08-13)
 
 ### Bug Fixes
