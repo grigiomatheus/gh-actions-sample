@@ -1,3 +1,8 @@
+## 1.3.0 (2025-08-13)
+
+### Features
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
 # Changelog
 
 ## 1.2.1 (2025-08-06)
