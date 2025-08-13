@@ -29,7 +29,5 @@ namespace SampleWebApi
         public string? Summary10 { get; set; }
 
         public string? Summary11 { get; set; }
-
-        public string? Summary12 { get; set; }
     }
 }
