@@ -1,3 +1,31 @@
+## 2.0.0 (2025-08-13)
+
+### break
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
+### Chores
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
+### ci
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
+### cleanup
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
+### Code Refactoring
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
+### raw
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
+### remove
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
+### style
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+  * TEST-XXX: test commit. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
 ## 1.3.3 (2025-08-13)
 
 ### Performance Improvements
