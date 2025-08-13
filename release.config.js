@@ -9,7 +9,7 @@ module.exports = {
           transform: (commit, context) => {
             if (!commit.type) return;
 
-            const message = `${commit.scope}: ${commit.subject} [${commit.scope}](https://sample.com/${commit.scope})`;
+            const message = `${commit.scope}: ${commit.subject} [${commit.scope}](https://google.com/browse/${commit.scope.toUpperCase()})`;
 
             const typeMap = {
               feat: 'Features',
@@ -28,7 +28,7 @@ module.exports = {
               section
             };
           },
-          mainTemplate: `# Changelog\n\n## {{version}} ({{date}})\n\n{{#each commitGroups}}\n### {{this.title}}\n{{#each this.commits}}\n  * {{this.message}}\n{{/each}}\n\n{{/each}}`,
+          mainTemplate: `## {{version}} ({{date}})\n\n{{#each commitGroups}}\n### {{this.title}}\n{{#each this.commits}}\n  * {{this.message}}\n{{/each}}\n\n{{/each}}`,
           commitTemplate: `{{message}}`,
           groupBy: 'section',
           commitsSort: ['scope', 'subject']
