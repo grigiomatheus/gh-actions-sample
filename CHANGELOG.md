@@ -1,3 +1,8 @@
+## 3.0.0 (2025-08-13)
+
+### custom
+  * TEST-XXX: custom description. [TEST-XXX](https://google.com/browse/TEST-XXX)
+
 ## 2.0.0 (2025-08-13)
 
 ### break
